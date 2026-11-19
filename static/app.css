@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; max-width: 700px; margin: 2rem auto; padding: 0 1rem; }
+main > header { display: flex; justify-content: space-between; align-items: center; }
+form { display: flex; gap: .5rem; margin: 1rem 0; }
+input, select, button { padding: .6rem; }
+.todos { list-style: none; padding: 0; }
+.todos li { display: flex; gap: .5rem; align-items: center; border-bottom: 1px solid #ddd; padding: .5rem 0; }
+.todos li form { margin: 0 0 0 auto; }
+.todos li form + form { margin-left: 0; }
+.completed span:nth-child(2) { text-decoration: line-through; }
+.priority { font-weight: bold; min-width: 2.5rem; }
+.flash { color: #a00; }
+.hint { color: #666; }
